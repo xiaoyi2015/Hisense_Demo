@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.2.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.kyleduo.switchbutton/library/1.2.10/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.kyleduo.switchbutton/library/1.2.10/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kyleduo.switchbutton/library/1.2.10/4cd5b33818bcf3a9b5345fcc575dd62b1431e754/library-1.2.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
