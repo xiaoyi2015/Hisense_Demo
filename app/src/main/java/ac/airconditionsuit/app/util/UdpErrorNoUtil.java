@@ -17,7 +17,7 @@ public class UdpErrorNoUtil {
             case 1005:
                 return "功能代码错误";
             case 1006:
-                return "获取i-EZ控制器序列号失败";
+                return "获取Hi-MIT控制器序列号失败";
             case 1007:
                 return "网络故障";
             case 1008:

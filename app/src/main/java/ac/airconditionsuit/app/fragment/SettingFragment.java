@@ -68,7 +68,7 @@ public class SettingFragment extends BaseFragment implements View.OnClickListene
             view.findViewById(R.id.host_device).setVisibility(View.VISIBLE);
             CommonButtonWithArrow hostDevice = (CommonButtonWithArrow) view.findViewById(R.id.host_device);
             if (UIManager.UITYPE == UIManager.HIT || UIManager.UITYPE == UIManager.HX)
-                hostDevice.getLabelTextView().setText("i-EZ控制器: ");
+                hostDevice.getLabelTextView().setText("Hi-MIT控制器: ");
             else {
                 hostDevice.getLabelTextView().setText("空调控制器: ");
             }

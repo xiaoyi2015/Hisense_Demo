@@ -279,7 +279,7 @@ public class SceneFragment extends BaseFragment {
                             MyApp.getApp().showToast("请先搜索室内机");
                         }
                     } else {
-                        MyApp.getApp().showToast("请先添加i-EZ控制器");
+                        MyApp.getApp().showToast("请先添加Hi-MIT控制器");
                     }
                 }
             });

@@ -1,6 +1,6 @@
 <resources>
-    <!--<string name="app_name">i-EZ</string>-->
-    --<string name="app_name">Hisense</string>
+    <!--<string name="app_name">Hi-MIT</string>-->
+    --<string name="app_name">Hi-MIT</string>
     <!--<string name="app_name">D-Controls</string>-->
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -11,8 +11,8 @@
     <string name="setting_home_setting">家的设置</string>
     <string name="software_page">软件界面个性化</string>
     <string name="device_list">设备列表</string>
-    <string name="add_device">+ 添加i-EZ控制器</string>
-    <string name="add_device_title">添加新i-EZ控制器</string>
+    <string name="add_device">+ 添加Hi-MIT控制器</string>
+    <string name="add_device_title">添加新Hi-MIT控制器</string>
 
     <string name="text_part1">您的建议或是技术问题对我们来说都十分的重要。\n
             收到您的邮件将是我们万分的荣幸。\n</string>
@@ -38,9 +38,9 @@
     <string name="home_basic_info">基本信息</string>
     <string name="name">名称</string>
     <string name="delete_home">删除家</string>
-    <string name="delete_info">删除后，家和家里i-EZ控制器的所有信息均无法恢复配置</string>
+    <string name="delete_info">删除后，家和家里Hi-MIT控制器的所有信息均无法恢复配置</string>
     <string name="add_group">添加新群组</string>
-    <string name="add_explain_text">\n自动搜索新i-EZ控制器:\n如果i-EZ控制器首次使用，请通过自动搜索新i-EZ控制器的方式添加。在自动搜索前，请确保i-EZ控制器已正常工作，并通过网线或WiFi的方式与路由器连接成功，只有保证手机、平板和i-EZ控制器在同一局域网内，i-EZ控制器才能被搜索到。\n\n扫一扫:\n第一个添加i-EZ控制器的用户为管理员，管理员可以生成i-EZ控制器的二维码，其他用户扫描二维码后才可以添加i-EZ控制器。\n\n二维码：\n配置设置->i-EZ控制器->设备二维码</string>
+    <string name="add_explain_text">\n自动搜索新Hi-MIT控制器:\n如果Hi-MIT控制器首次使用，请通过自动搜索新Hi-MIT控制器的方式添加。在自动搜索前，请确保Hi-MIT控制器已正常工作，并通过网线或WiFi的方式与路由器连接成功，只有保证手机、平板和Hi-MIT控制器在同一局域网内，Hi-MIT控制器才能被搜索到。\n\n扫一扫:\n第一个添加Hi-MIT控制器的用户为管理员，管理员可以生成Hi-MIT控制器的二维码，其他用户扫描二维码后才可以添加Hi-MIT控制器。\n\n二维码：\n配置设置->Hi-MIT控制器->设备二维码</string>
     <string name="auto_find_device">自动搜索空调控制主机</string>
     <string name="scan_scan">扫一扫</string>
     <string name="home_name">家的名称</string>
@@ -166,11 +166,11 @@
     <string name="set_temp">设定温度</string>
     <string name="set_mode">模式</string>
     <string name="set_fan">风速</string>
-    <string name="text_version_hit">i-EZ\n- Version V1.0.070801 - \n\n\nPQ-223</string>
-    <string name="text_part2_hit">此软件需通过日立i-EZ控制器实现相应控制\n功能。本软件中所涉及的界面及交互品牌名称\n
+    <string name="text_version_hit">Hi-MIT\n- Version V1.0.070801 -</string>
+    <string name="text_part2_hit">此软件需通过海信Hi-MIT控制器实现相应控制\n功能。本软件中所涉及的界面及交互品牌名称\n
         均是各自持有者的商标、注册商标或商标名称。\n
         设计和功能如有变更，恕不另行通知！</string>
-    <string name="text_part1_hit">服务热线： 400-860-1111\n 版权所有@2015 青岛海信日立空调系统有限公司</string>
+    <string name="text_part1_hit">服务热线： 400-611-1111\n 版权所有@2015 青岛海信日立空调系统有限公司</string>
     <string name="none">——</string>
     <string name="home_name_too_long_info">家的名称长度不能超过10个汉字或20个字母</string>
     <string name="host_device">设备管理器：</string>
@@ -199,8 +199,8 @@
     <string name="search_host_device_failed">获取主机失败</string>
     <string name="device_already_exist">空调已存在</string>
 
-    <string name="settingFragmentHasHostNoDevice">成功连接服务器，未添加i-EZ控制器</string>
-    <string name="settingFragmentNoHostNoDevice">无法连接服务器，未添加i-EZ控制器</string>
+    <string name="settingFragmentHasHostNoDevice">成功连接服务器，未添加Hi-MIT控制器</string>
+    <string name="settingFragmentNoHostNoDevice">无法连接服务器，未添加Hi-MIT控制器</string>
 
     <string name="settingFragmentWifiConnectDevice">通过wifi远程控制</string>
     <string name="settingFragmentMobileConnectDevice">通过移动网络远程控制</string>
@@ -208,15 +208,15 @@
     <string name="settingFragmentMobileConnectDevice3">通过3G网络远程控制</string>
     <string name="settingFragmentMobileConnectDevice4">通过4G网络远程控制</string>
     <string name="settingFragmentWifiUdpConnect">通过局域网控制</string>
-    <string name="settingFragmentConnectServer">i-EZ控制器未联网</string>
-    <string name="settingFragmentNoDevice">无i-EZ控制器</string>
+    <string name="settingFragmentConnectServer">Hi-MIT控制器未联网</string>
+    <string name="settingFragmentNoDevice">无Hi-MIT控制器</string>
     <string name="settingFragmentWifiNoServer">APP正使用WiFi，但无法连接服务器</string>
     <string name="settingFragmentCannotControl">手机无法连接服务器，且局域网无法控制</string>
     <string name="settingFragmentUnConnect">手机未联网</string>
     <string name="host_name_empty_info">设备管理器的名称不能为空</string>
     <string name="host_name_too_long_info">设备管理器的名称长度不能超过10个汉字或20个字母</string>
     <string name="pls_add_air_to_room">房间里没有空调，请先添加空调到房间里！</string>
-    <string name="fail_to_fetch_aircondition">连接i-EZ控制器失败，获取不到房间空调状态</string>
+    <string name="fail_to_fetch_aircondition">连接Hi-MIT控制器失败，获取不到房间空调状态</string>
     <string name="unfetch_real_temp">获取实际温度失败</string>
     <string name="toast_inf_complete_user_inf">请完善用户信息</string>
     <string name="unknow">未填写</string>
@@ -225,16 +225,16 @@
     <string name="section_device_num1">本设备共有</string>
     <string name="section_device_num2">台空调机\n拖拽空调到空白区域添加新房间</string>
     <string name="is_delete_device_from_room">\n确定从房间中删除此空调吗？\n</string>
-    <string name="toast_inf_no_device_to_add_clock">未连接i-EZ控制器，无法添加定时器</string>
-    <string name="toast_inf_no_device_to_modify_clock">未连接i-EZ控制器，无法修改定时器</string>
+    <string name="toast_inf_no_device_to_add_clock">未连接Hi-MIT控制器，无法添加定时器</string>
+    <string name="toast_inf_no_device_to_modify_clock">未连接Hi-MIT控制器，无法修改定时器</string>
     <string name="add_host_text1">局域网内搜索到下列设备</string>
     <string name="add_host_text2">点击添加设备，成为设备管理员</string>
     <string name="is_to_delete_home">\n确定要删除当前家吗？\n</string>
     <string name="change_room_tip">长按设备选择是否从房间内删除\n点击对话框以外区域保存房间</string>
     <string name="room_name_empty_info">房间名称不能为空</string>
     <string name="room_name_too_long_info">房间名称长度不能超过10个汉字或20个字母</string>
-    <string name="not_seek_ize">未搜索到i-EZ控制器！</string>
-    <string name="not_seek_text">\n请确保i-EZ控制器已经正确工作，且与主机处于同一局域网内\n</string>
+    <string name="not_seek_ize">未搜索到Hi-MIT控制器！</string>
+    <string name="not_seek_text">\n请确保Hi-MIT控制器已经正确工作，且与主机处于同一局域网内\n</string>
     <string name="go_back">返回</string>
     <string name="manager_text3">你是此设备的成员</string>
     <string name="device_name_empty_info">空调名称不能为空</string>
@@ -244,7 +244,7 @@
     <string name="executing">正在执行操作</string>
     <string name="is_delete_host_device2">\n确定删除本设备吗\n</string>
     <string name="new_user_add_device">\n请到配置设置界面添加新的设备\n</string>
-    <string name="add_home_tip">\n新家增加成功，请到“我的空调”界面选择新家，并在新家添加i-EZ控制器\n</string>
+    <string name="add_home_tip">\n新家增加成功，请到“我的空调”界面选择新家，并在新家添加Hi-MIT控制器\n</string>
     <string name="search_indoor_failed">未搜索到空调机，请检查网络连接...</string>
 
 </resources>
