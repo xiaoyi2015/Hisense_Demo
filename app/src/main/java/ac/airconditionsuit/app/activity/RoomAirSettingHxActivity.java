@@ -1,16 +1,23 @@
 package ac.airconditionsuit.app.activity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.util.TypedValue;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
+
+import java.util.ArrayList;
 
 import ac.airconditionsuit.app.MyApp;
 import ac.airconditionsuit.app.R;
@@ -229,6 +236,77 @@ public class RoomAirSettingHxActivity extends BaseActivity{
             }
         });
         setOK.setImageResource(R.drawable.room_ok_button_hx);
+
+        ImageView roomWarning = (ImageView) findViewById(R.id.room_warning);
+        final ArrayList<Integer> air_index_list = new ArrayList<>();
+        final ArrayList<Integer> warning_list = new ArrayList<>();
+        final ArrayList<Integer> address_list = new ArrayList<>();
+        if (room.getElements() == null) {
+            roomWarning.setVisibility(View.GONE);
+        } else {
+            for (int i = 0; i < room.getElements().size(); i++) {
+                if(MyApp.getApp().getAirConditionManager().getAirConditionByIndex_new(room.getElements().
+                        get(i)) == null){
+                    break;
+                }else {
+                    if (MyApp.getApp().getAirConditionManager().getAirConditionByIndex_new(room.getElements().
+                            get(i)).getWarning() != 0) {
+                        air_index_list.add(MyApp.getApp().getServerConfigManager().getDevices_new().
+                                get(room.getElements().get(i)).getOldIndoorIndex());
+                        warning_list.add(MyApp.getApp().getAirConditionManager().getAirConditionByIndex_new
+                                (room.getElements().get(i)).getWarning());
+                        address_list.add(MyApp.getApp().getServerConfigManager().getDevices_new().
+                                get(room.getElements().get(i)).getOldIndoorAddress());
+                    }
+                }
+            }
+            if (air_index_list.size() > 0) {
+                roomWarning.setVisibility(View.VISIBLE);
+                roomWarning.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        TextView et = new TextView(RoomAirSettingHxActivity.this);
+                        et.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
+//                        et.setGravity(Gravity.LEFT|Gravity.CENTER_VERTICAL);
+                        String warning = " \n";
+                        for (int i = 0; i < air_index_list.size(); i++) {
+                            if (warning_list.get(i) == -2) {
+                                if (address_list.get(i) < 10) {
+                                    warning = warning + "空调 " + air_index_list.get(i) + "-0" +
+                                            address_list.get(i) + " 离线" + "\n";
+                                } else {
+                                    warning = warning + "空调 " + air_index_list.get(i) + "-" +
+                                            address_list.get(i) + " 离线" + "\n";
+                                }
+                            } else {
+                                if (address_list.get(i) < 10) {
+                                    warning = warning + "空调 " + air_index_list.get(i) + "-0" +
+                                            address_list.get(i) + "，报警代码：" + Integer.toHexString(warning_list.get(i)| 0xFFFFFF00).substring(6) + "\n";
+                                } else {
+                                    warning = warning + "空调 " + air_index_list.get(i) + "-" +
+                                            address_list.get(i) + "，报警代码：" +  Integer.toHexString(warning_list.get(i)| 0xFFFFFF00).substring(6) + "\n";
+                                }
+                            }
+                        }
+                        et.setText(warning);
+                        et.setGravity(Gravity.CENTER);
+                        et.setTextColor(getResources().getColor(R.color.delete_red_hit));
+                        ScrollView sv = new ScrollView(RoomAirSettingHxActivity.this);
+                        sv.addView(et);
+                        new AlertDialog.Builder(RoomAirSettingHxActivity.this).setTitle(R.string.tip).setView(sv).
+                                setPositiveButton(R.string.make_sure, new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dialog.dismiss();
+                                    }
+                                }).setCancelable(false).show();
+                    }
+                });
+            } else {
+                roomWarning.setVisibility(View.GONE);
+            }
+        }
         init();
 
     }

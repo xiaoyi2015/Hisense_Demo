@@ -193,4 +193,17 @@
 
     </RelativeLayout>
 
+    <ImageView
+        android:id="@+id/room_warning"
+        android:src="@drawable/alarm"
+        android:visibility="gone"
+        android:layout_below="@+id/default_top_bar"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
 </RelativeLayout>
