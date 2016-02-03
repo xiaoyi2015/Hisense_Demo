@@ -1307,9 +1307,9 @@ public class SectionAndRoomView extends RelativeLayout {
                                 ac.repair();
                                 intent.putExtra("air", ac.toJsonString());
                                 intent.putExtra("room", rooms.get(position).toJsonString());
-                                intent.setClass(context, RoomAirSettingHitActivity.class);
+                                intent.setClass(context, RoomAirSettingHxActivity.class);
                                 intent.putExtra("title", rooms.get(position).getName());
-                                ((MainActivity)context).startActivityForResult(intent,MyAirFragment.REQUEST_ROOM_HIT);
+                                ((MainActivity)context).startActivityForResult(intent,MyAirFragment.REQUEST_ROOM_HX);
                             }
                         }
                     });

@@ -2,6 +2,104 @@
 <items version="2" >
 
     <item
+        jar="/Users/zln/linan/Hisense/app/build/intermediates/exploded-aar/com.kyleduo.switchbutton/library/1.2.10/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="222643b10c20fc801fcb2b04b108544a905a1bb8">
+        <dex dex="/Users/zln/linan/Hisense/app/build/intermediates/pre-dexed/debug/classes-471f982e47f4049538ebea3dd04862160388643c.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/Hisense/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/zln/linan/Hisense/app/build/intermediates/pre-dexed/debug/classes-e149316212720856cdbb9e6f927744033e975512.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-7973ad6634875d15dd00ef66f970321eeb3ff0bd.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-591834c736850365f8018a0ac81467b77896bfe3.jar" />
+    </item>
+    <item
+        jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/library-1.0.19-e8bd973f953107b4839735a36f29b2319b35545a.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/AirConditionSuit/swipeListView/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="293856cc234db649b49ffbb428066bb64df8e474">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-bfb033598a42f051473384d3acef478383bcc27e.jar" />
+    </item>
+    <item
+        jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.8/77bbfe240e437ecb396d982afa0d3bd4f9090ba7/android-async-http-1.4.8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.8-8acce11d3ba5f57f0c236e06c4bfff86cbb85930.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/Hisense/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
+        <dex dex="/Users/zln/linan/Hisense/app/build/intermediates/pre-dexed/debug/classes-043d728cc4aacf14e6d34abd8c6f64db442a13a3.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-42633ebdd59d8f666349e9e0f8ea4cfecdb8806f.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/Hisense/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/zln/linan/Hisense/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-2231f34d4ecc11fec85faaf1860e6940a44c1d3f.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-b9cfe8e2094e523dc193d98f332cb0f6f90c7a8c.jar" />
+    </item>
+    <item
+        jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/5.6.4/76fed6d2233b958f0c1d589aa366785e0ab5c8f1/analytics-5.6.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="76fed6d2233b958f0c1d589aa366785e0ab5c8f1">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/analytics-5.6.4-aa9cb5153c20918e6edc1c0b0d646f40c7e05c5c.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/AirConditionSuit/app/libs/org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/org.apache.http.legacy-b9aa66f7790f90cab8307df2cdf1e247c8b34906.jar" />
+    </item>
+    <item
+        jar="/Users/zln/linan/Hisense/app/libs/org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="/Users/zln/linan/Hisense/app/build/intermediates/pre-dexed/debug/org.apache.http.legacy-14412e8442c6a609ed9b223447af579dc266cfc4.jar" />
+    </item>
+    <item
         jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -16,11 +114,11 @@
         <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/core-3.2.0-6c0084917c078b6a09f36fa1603bbe8b36c958e2.jar" />
     </item>
     <item
-        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/AirConditionSuit/swipeListView/unspecified/jars/classes.jar"
+        jar="/Users/zln/linan/Hisense/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="293856cc234db649b49ffbb428066bb64df8e474">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-bfb033598a42f051473384d3acef478383bcc27e.jar" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/zln/linan/Hisense/app/build/intermediates/pre-dexed/debug/classes-9c0fc3606622d544272bdf64c7cf66c737bcdbe9.jar" />
     </item>
     <item
         jar="/Users/zln/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
@@ -30,11 +128,11 @@
         <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-1509ab9056beba4d3c3839586e38b88938af66bc.jar" />
     </item>
     <item
-        jar="/Users/zln/linan/AirConditionSuit/app/libs/org.apache.http.legacy.jar"
+        jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.googlecode.plist/dd-plist/1.16/122502bfbbe227bb67fb8278f57d3b099d738874/dd-plist-1.16.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/org.apache.http.legacy-b9aa66f7790f90cab8307df2cdf1e247c8b34906.jar" />
+        sha1="122502bfbbe227bb67fb8278f57d3b099d738874">
+        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/dd-plist-1.16-f3d9be1651201965b26181214bc72c941b848e20.jar" />
     </item>
     <item
         jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.kyleduo.switchbutton/library/1.2.10/jars/classes.jar"
@@ -44,60 +142,11 @@
         <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-78eb3b33ed309af7faf34c02a7b9636434585626.jar" />
     </item>
     <item
-        jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.googlecode.plist/dd-plist/1.16/122502bfbbe227bb67fb8278f57d3b099d738874/dd-plist-1.16.jar"
+        jar="/Users/zln/linan/Hisense/app/build/intermediates/exploded-aar/Hisense/swipeListView/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="122502bfbbe227bb67fb8278f57d3b099d738874">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/dd-plist-1.16-f3d9be1651201965b26181214bc72c941b848e20.jar" />
-    </item>
-    <item
-        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-7973ad6634875d15dd00ef66f970321eeb3ff0bd.jar" />
-    </item>
-    <item
-        jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.8/77bbfe240e437ecb396d982afa0d3bd4f9090ba7/android-async-http-1.4.8.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.8-8acce11d3ba5f57f0c236e06c4bfff86cbb85930.jar" />
-    </item>
-    <item
-        jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/library-1.0.19-e8bd973f953107b4839735a36f29b2319b35545a.jar" />
-    </item>
-    <item
-        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-591834c736850365f8018a0ac81467b77896bfe3.jar" />
-    </item>
-    <item
-        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-b9cfe8e2094e523dc193d98f332cb0f6f90c7a8c.jar" />
-    </item>
-    <item
-        jar="/Users/zln/linan/AirConditionSuit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/classes-42633ebdd59d8f666349e9e0f8ea4cfecdb8806f.jar" />
-    </item>
-    <item
-        jar="/Users/zln/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/5.6.4/76fed6d2233b958f0c1d589aa366785e0ab5c8f1/analytics-5.6.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="76fed6d2233b958f0c1d589aa366785e0ab5c8f1">
-        <dex dex="/Users/zln/linan/AirConditionSuit/app/build/intermediates/pre-dexed/debug/analytics-5.6.4-aa9cb5153c20918e6edc1c0b0d646f40c7e05c5c.jar" />
+        sha1="c20a092c95fcc66706f23eb723df3f2ebe3a9dca">
+        <dex dex="/Users/zln/linan/Hisense/app/build/intermediates/pre-dexed/debug/classes-30af69be3e57d6c2a9547113e30edff4e83a372e.jar" />
     </item>
 
 </items>

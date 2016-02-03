@@ -67,8 +67,8 @@
                 android:src="@drawable/room_off_fan_hx"
                 android:layout_toRightOf="@+id/set_onoff"
                 android:layout_below="@+id/mode_dry"
-                android:layout_marginTop="18dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="32dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -87,7 +87,7 @@
                 android:src="@drawable/selected_fan3_hit"
                 android:layout_toLeftOf="@+id/set_onoff"
                 android:layout_below="@+id/fan_fan5"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="31dp"
                 android:layout_marginRight="75dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -98,7 +98,7 @@
                 android:layout_toLeftOf="@+id/set_onoff"
                 android:layout_below="@+id/fan_fan3"
                 android:layout_marginTop="25dp"
-                android:layout_marginRight="45dp"
+                android:layout_marginRight="47dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -114,7 +114,7 @@
                     android:id="@+id/temp_num"
                     android:text="28"
                     android:textSize="48sp"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="48dp"
                     android:layout_centerHorizontal="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -149,7 +149,6 @@
 
                 <ImageView
                     android:id="@+id/final_fan"
-                    android:src="@drawable/selected_fan1_hit"
                     android:layout_toLeftOf="@+id/temp_num"
                     android:layout_marginTop="105dp"
                     android:layout_marginRight="-25dp"
@@ -158,7 +157,6 @@
 
                 <ImageView
                     android:id="@+id/final_mode"
-                    android:src="@drawable/selected_cool_hit"
                     android:layout_toRightOf="@+id/temp_num"
                     android:layout_marginTop="105dp"
                     android:layout_marginLeft="-25dp"
@@ -167,7 +165,6 @@
 
                 <TextView
                     android:id="@+id/final_mode_fan_text"
-                    android:text="高风|制冷"
                     android:textColor="@color/text_color_white"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="150dp"
@@ -182,7 +179,7 @@
             android:id="@+id/off_bg"
             android:src="@drawable/room_off_view_hx"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="9dp"
+            android:layout_marginTop="8.9dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
