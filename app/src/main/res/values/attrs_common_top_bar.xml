@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="CommonTopBar">
+        <attr name="titleText" format="string" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="rightIcon" format="reference" />
+    </declare-styleable>
+</resources>

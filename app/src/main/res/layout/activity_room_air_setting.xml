@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/room_air_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ac.airconditionsuit.app.view.CommonTopBar
+        android:id="@+id/default_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+    </ac.airconditionsuit.app.view.CommonTopBar>
+
+    <LinearLayout
+        android:id="@+id/real_temp_view"
+        android:layout_below="@+id/default_top_bar"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@drawable/room_bg_normal_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bg_bar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/real_temp"
+            android:text="@string/real_temp"
+            android:layout_margin="10dp"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/room_name"
+            android:gravity="right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textSize="15sp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/on_off_view"
+        android:layout_below="@+id/real_temp_view"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@drawable/room_bg_normal_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bg_bar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/on_off"
+            android:layout_margin="15dp"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/on_off_text"
+            android:gravity="right"
+            android:text="@string/on_off"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textSize="15sp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mode_view"
+        android:layout_below="@+id/on_off_view"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@drawable/room_bg_normal_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bg_bar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/mode"
+            android:layout_margin="15dp"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/mode_text"
+            android:gravity="right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textSize="15sp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wind_speed_view"
+        android:layout_below="@+id/mode_view"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@drawable/room_bg_normal_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bg_bar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/wind_speed"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/wind_text"
+            android:gravity="right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textSize="15sp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/temp_view"
+        android:layout_below="@+id/wind_speed_view"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@drawable/room_bg_normal_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bg_bar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/temp_number"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="28sp"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/decrease_temp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="top"
+            android:src="@drawable/temp_decrease_dc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/increase_temp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="top"
+            android:src="@drawable/temp_increase_dc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/temp_text"
+            android:gravity="right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textSize="15sp"
+            android:text="@string/temp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/execute_command"
+        android:layout_below="@+id/temp_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/executing"
+        android:gravity="center"
+        android:background="@drawable/progress_bar_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

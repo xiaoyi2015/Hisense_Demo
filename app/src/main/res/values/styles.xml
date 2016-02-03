@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="tab_indicator" >
+        <item name="android:gravity"> center </item>
+        <item name="android:textSize"> 14sp </item>
+    </style>
+    <style name="HalfTranslucent"  >
+        <item name="android:windowBackground">@color/transparent_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+
+    <style name="HalfTranslucent2"  >
+        <item name="android:windowBackground">@color/transparent_black</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+    <color name="transparent_black">#7f000000</color>
+    <color name="transparent_bg">#999a9b</color>
+</resources>

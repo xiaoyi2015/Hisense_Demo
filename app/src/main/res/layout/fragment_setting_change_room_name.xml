@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_room_page"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:background="@color/text_color_white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/room_name"
+        android:gravity="center"
+        android:drawableRight="@drawable/login_text_cancel"
+        android:textColor="@color/text_color_black"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <GridView
+        android:id="@+id/air_list"
+        android:background="@color/text_color_white"
+        android:layout_below="@+id/room_name"
+        android:layout_above="@+id/delete_text_tip"
+        android:numColumns="3"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="1dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/delete_text_tip"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/text_color_white"
+        android:textColor="@color/text_normal_color"
+        android:text="@string/change_room_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

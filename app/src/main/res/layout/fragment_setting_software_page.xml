@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/software_page_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ac.airconditionsuit.app.view.CommonTopBar
+        android:id="@+id/default_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+    </ac.airconditionsuit.app.view.CommonTopBar>
+
+    <ListView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/group_view"
+        android:layout_below="@+id/default_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</RelativeLayout>

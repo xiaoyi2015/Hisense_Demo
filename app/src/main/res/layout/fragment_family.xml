@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/current_user_view">
+
+        <TextView
+            android:id="@+id/admin_text"
+            android:layout_width="match_parent"
+            android:textColor="@color/text_color_white"
+            android:layout_height="25dp"
+            android:gravity="center" />
+
+        <ac.airconditionsuit.app.view.RoundImageView
+            android:id="@+id/current_user"
+            android:src="@drawable/user_dc"
+            android:scaleType="fitXY"
+            android:layout_below="@id/admin_text"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:textColor="@color/text_color_white"
+            android:layout_marginTop="2dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_below="@+id/current_user" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/delete_msg"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/text_color_white"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/family_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:listSelector="@android:color/transparent"
+        android:layout_below="@id/current_user_view"
+        android:layout_above="@id/text_view"
+        />
+</RelativeLayout>

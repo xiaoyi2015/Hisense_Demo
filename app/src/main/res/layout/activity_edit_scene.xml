@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ac.airconditionsuit.app.view.CommonTopBar
+        android:id="@+id/default_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+    </ac.airconditionsuit.app.view.CommonTopBar>
+
+    <ScrollView
+        android:id="@+id/scroll_scene"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/default_top_bar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/scene_name_text"
+                style="@style/white_text_view_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/login_text_cancel"
+                android:hint="@string/scene_name_hint"
+                android:textColor="@color/text_color_black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/choose_scene_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scene_name_text"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/choose_scene_text"
+                android:textColor="@color/text_color_gray"
+                android:textSize="16sp" />
+
+            <ListView
+                android:id="@+id/air_device_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choose_scene_text"
+                android:listSelector="@android:color/transparent">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/delete_scene"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/air_device_list"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="30dp"
+                android:padding="10dp"
+                android:text="@string/delete"
+                android:textColor="@color/text_color_white"
+                android:textSize="19sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

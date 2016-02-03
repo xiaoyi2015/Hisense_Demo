@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ac.airconditionsuit.app">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <!--android:icon="@mipmap/hx_launcher"-->
+    <!--android:icon="@mipmap/dc_launcher"-->
+
+    <application
+            android:name=".MyApp"
+            android:allowBackup="true"
+            android:icon="@mipmap/hit_launcher"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme">
+
+        <activity
+                android:name=".activity.SplashActivity"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activity.MainActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.SoftwareInfoActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.UserInfoActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.LoginActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+                android:name=".activity.HomeSettingActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.SoftwarePageActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.AddDeviceActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.ChangeHomeNameActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.RegisterActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.DragDeviceActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.ChangeUserNameActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.AgreementActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.ChangePhoneActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.ChangePasswordActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.AddHomeActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.RoomAirSettingActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.EditSceneActivity"
+                android:windowSoftInputMode="adjustPan|stateHidden"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.EditClockActivity"
+                android:windowSoftInputMode="adjustPan|stateHidden"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.ChooseClockRepeatActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.RoomAirSettingHitActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.CustomCaptureActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.HostDeviceActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.RoomAirSettingHxActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.SearchIndoorDeviceActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.BindHostActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.QRCodeActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.InfoPageActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/HalfTranslucent">
+        </activity>
+        <activity
+                android:name=".activity.ChangeRoomNameActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/HalfTranslucent2"
+                android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+
+        <activity
+                android:name=".activity.SearchDeviceByUdpResultActivity"
+                android:screenOrientation="portrait">
+        </activity>
+
+        <!--<receiver android:name=".receiver.NetworkChangeReceiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>-->
+        <!--<action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <meta-data android:value="563080c1e0f55ad66c000dd5" android:name="UMENG_APPKEY"/>
+        <meta-data android:value="Wandoujia" android:name="UMENG_CHANNEL"/>
+
+        <!--<meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/>-->
+    </application>
+
+</manifest>

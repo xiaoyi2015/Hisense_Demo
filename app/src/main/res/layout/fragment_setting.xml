@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/text_color_white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ac.airconditionsuit.app.view.RoundImageView
+                    android:id="@+id/user_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:background="@null"
+                    android:src="@drawable/user_dc" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/split_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:src="@color/text_color_gray" />
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/software_information"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:background="@null"
+                    android:src="@drawable/info_dc" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/setting_home_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/setting_home_icon" />
+
+        <TextView
+            android:id="@+id/setting_home_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="17sp" />
+
+        <ac.airconditionsuit.app.view.CommonButtonWithArrow
+            android:id="@+id/connect_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal"
+            app:textLabel="@string/connect_status"
+            app:rightArrow="false" />
+
+        <ac.airconditionsuit.app.view.CommonButtonWithArrow
+            android:id="@+id/setting_home_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal"
+            app:textLabel="@string/setting_home_setting" />
+
+        <ac.airconditionsuit.app.view.CommonButtonWithArrow
+            android:id="@+id/software_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:textLabel="@string/software_page" />
+
+        <TextView
+            android:id="@+id/device_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/device_list"
+            android:textColor="@color/text_color_gray" />
+
+        <ac.airconditionsuit.app.view.CommonButtonWithArrow
+            android:id="@+id/host_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal" />
+
+        <ac.airconditionsuit.app.view.CommonButtonWithArrow
+            android:id="@+id/add_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:textLabel="@string/add_device"
+            app:rightArrow="false"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
