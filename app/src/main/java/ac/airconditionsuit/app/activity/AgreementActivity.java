@@ -52,7 +52,7 @@ public class AgreementActivity extends BaseActivity{
                 webView.loadUrl("file:///android_asset/d-controls-agreement.html");
                 break;
             default:
-                webView.loadUrl("file:///android_asset/hitachi-agreement.html");
+                webView.loadUrl("file:///android_asset/hi-mit-agreement.html");
                 break;
         }
 
