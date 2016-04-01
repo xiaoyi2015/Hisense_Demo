@@ -25,17 +25,19 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/set_onoff"
+                android:id="@+id/set_onoff_deprecated"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/selected_onoff_hit"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
+
+
             <ImageView
                 android:id="@+id/mode_cool"
-                android:layout_toRightOf="@+id/set_onoff"
-                android:layout_below="@+id/set_onoff"
+                android:layout_toRightOf="@+id/set_onoff_deprecated"
+                android:layout_below="@+id/set_onoff_deprecated"
                 android:src="@drawable/selected_cool_hit"
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="-15dp"
@@ -45,7 +47,7 @@
             <ImageView
                 android:id="@+id/mode_heat"
                 android:src="@drawable/selected_heat_hit"
-                android:layout_toRightOf="@+id/set_onoff"
+                android:layout_toRightOf="@+id/set_onoff_deprecated"
                 android:layout_below="@+id/mode_cool"
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="68dp"
@@ -55,7 +57,7 @@
             <ImageView
                 android:id="@+id/mode_dry"
                 android:src="@drawable/selected_dry_hit"
-                android:layout_toRightOf="@+id/set_onoff"
+                android:layout_toRightOf="@+id/set_onoff_deprecated"
                 android:layout_below="@+id/mode_heat"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="68dp"
@@ -65,7 +67,7 @@
             <ImageView
                 android:id="@+id/mode_fan"
                 android:src="@drawable/room_off_fan_hx"
-                android:layout_toRightOf="@+id/set_onoff"
+                android:layout_toRightOf="@+id/set_onoff_deprecated"
                 android:layout_below="@+id/mode_dry"
                 android:layout_marginTop="17dp"
                 android:layout_marginLeft="32dp"
@@ -73,10 +75,19 @@
                 android:layout_height="wrap_content" />
 
             <ImageView
+                android:id="@+id/set_onoff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/mode_dry"
+                android:layout_marginTop="42dp"
+                android:src="@drawable/selected_onoff_hit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
                 android:id="@+id/fan_fan5"
                 android:src="@drawable/selected_fan5_hit"
-                android:layout_toLeftOf="@+id/set_onoff"
-                android:layout_below="@+id/set_onoff"
+                android:layout_toLeftOf="@+id/set_onoff_deprecated"
+                android:layout_below="@+id/set_onoff_deprecated"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="52dp"
                 android:layout_width="wrap_content"
@@ -85,7 +96,7 @@
             <ImageView
                 android:id="@+id/fan_fan3"
                 android:src="@drawable/selected_fan3_hit"
-                android:layout_toLeftOf="@+id/set_onoff"
+                android:layout_toLeftOf="@+id/set_onoff_deprecated"
                 android:layout_below="@+id/fan_fan5"
                 android:layout_marginTop="31dp"
                 android:layout_marginRight="75dp"
@@ -95,7 +106,7 @@
             <ImageView
                 android:id="@+id/fan_fan1"
                 android:src="@drawable/selected_fan1_hit"
-                android:layout_toLeftOf="@+id/set_onoff"
+                android:layout_toLeftOf="@+id/set_onoff_deprecated"
                 android:layout_below="@+id/fan_fan3"
                 android:layout_marginTop="25dp"
                 android:layout_marginRight="47dp"
@@ -114,7 +125,7 @@
                     android:id="@+id/temp_num"
                     android:text="28"
                     android:textSize="48sp"
-                    android:layout_marginTop="48dp"
+                    android:layout_centerVertical="true"
                     android:layout_centerHorizontal="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -124,15 +135,15 @@
                     android:text="@string/temp_symbol"
                     android:textSize="20sp"
                     android:layout_toRightOf="@+id/temp_decrease"
-                    android:layout_marginLeft="50dp"
-                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="60dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <ImageView
                     android:id="@+id/temp_decrease"
                     android:src="@drawable/temp_decrease_dc"
-                    android:layout_marginTop="65dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginRight="20dp"
                     android:layout_toLeftOf="@+id/temp_num"
                     android:layout_width="wrap_content"
@@ -140,7 +151,7 @@
 
                 <ImageView
                     android:id="@+id/temp_increase"
-                    android:layout_marginTop="65dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginLeft="20dp"
                     android:layout_toRightOf="@+id/temp_num"
                     android:src="@drawable/temp_increase_dc"

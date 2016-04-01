@@ -204,10 +204,15 @@ public class RoomAirSettingHxActivity extends BaseActivity{
         fan3 = (ImageView)findViewById(R.id.fan_fan3);
         fan5 = (ImageView)findViewById(R.id.fan_fan5);
         setOnOff = (ImageView)findViewById(R.id.set_onoff);
+        ImageView temp = (ImageView)findViewById(R.id.set_onoff_deprecated);
+        temp.setAlpha(0);
         setOK = (ImageView)findViewById(R.id.ok_button);
         finalMode = (ImageView)findViewById(R.id.final_mode);
         finalFan = (ImageView)findViewById(R.id.final_fan);
         finalText = (TextView)findViewById(R.id.final_mode_fan_text);
+        finalMode.setVisibility(View.GONE);
+        finalFan.setVisibility(View.GONE);
+        finalText.setVisibility(View.GONE);
         offView = (ImageView)findViewById(R.id.off_bg);
         panelView = (RelativeLayout)findViewById(R.id.panel_view);
 
